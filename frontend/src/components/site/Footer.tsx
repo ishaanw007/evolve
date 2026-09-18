@@ -90,6 +90,9 @@ export function Footer() {
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-secondary" />
                 <span>{contact.address}</span>
               </li>
+              <li className="text-xs">
+                <span className="font-medium text-foreground">GSTIN:</span> {contact.gstin}
+              </li>
             </ul>
 
             <form
@@ -123,7 +126,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col gap-2 border-t border-border/70 pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} Evolve Life Sciences. All rights reserved.</p>
-          <p>GST-compliant supplier · Serving research institutions across India</p>
+          <p>GSTIN {contact.gstin} · Serving research institutions across India</p>
         </div>
       </div>
     </footer>

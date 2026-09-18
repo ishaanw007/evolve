@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useAuth } from "@/hooks/useAuth";
 import { useCart } from "@/hooks/useCart";
-import logoImg from "@/assets/logo.png";
+import logoImg from "@/assets/logo-transparent.png";
 
 const navLinks = [
   { to: "/products", label: "Products" },
@@ -34,13 +34,9 @@ export function Header() {
             <img
               src={logoImg}
               alt="Evolve"
-              className="h-10 w-10 rounded-xl object-cover shadow-sm"
+              className="h-18  object-cover "
             />
-            <div className="hidden sm:block">
-              <span className="text-[15px] font-bold tracking-tight text-foreground">
-                Evolve
-              </span>
-            </div>
+
           </Link>
         </div>
 

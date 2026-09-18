@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Mail, MapPin, Phone, Clock } from "lucide-react";
+import { Mail, MapPin, Phone, Clock, BadgeCheck } from "lucide-react";
 import { PageHero } from "@/components/site/PageHero";
 import { Reveal } from "@/components/site/Reveal";
 import { QuoteForm } from "@/components/site/QuoteForm";
@@ -40,6 +40,7 @@ function Contact() {
                 { icon: Phone, label: "Phone", value: contact.phone, href: `tel:${contact.phone.replace(/\s/g, "")}` },
                 { icon: Mail, label: "Email", value: contact.email, href: `mailto:${contact.email}` },
                 { icon: MapPin, label: "Business Address", value: contact.address },
+                { icon: BadgeCheck, label: "GSTIN", value: contact.gstin },
                 { icon: Clock, label: "Working Hours", value: "Monday – Saturday, 9:30 AM – 6:30 PM IST" },
               ].map((c) => (
                 <div

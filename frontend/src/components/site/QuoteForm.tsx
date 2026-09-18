@@ -9,7 +9,7 @@ const fields = [
   { id: "name", label: "Name", type: "text", required: true, placeholder: "Dr. A. Sharma" },
   { id: "company", label: "Company / Institution", type: "text", required: true, placeholder: "IIT Bombay" },
   { id: "email", label: "Email", type: "email", required: true, placeholder: "you@institute.edu" },
-  { id: "phone", label: "Phone", type: "tel", required: true, placeholder: "+91 98765 43210" },
+  { id: "phone", label: "Phone", type: "tel", required: true, placeholder: "+91 7303442030" },
   { id: "product", label: "Product Required", type: "text", required: true, placeholder: "Fetal Bovine Serum, 500 mL" },
   { id: "quantity", label: "Quantity", type: "text", required: false, placeholder: "10 bottles" },
 ] as const;

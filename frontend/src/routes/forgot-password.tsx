@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useAuth } from "@/hooks/useAuth";
 import { Mail, AlertCircle, ArrowLeft, CheckCircle2 } from "lucide-react";
-import logoImg from "@/assets/logo.png";
+import logoImg from "@/assets/logo-transparent.png";
 
 export const Route = createFileRoute("/forgot-password")({
   component: ForgotPasswordPage,

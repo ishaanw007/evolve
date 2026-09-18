@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useAuth } from "@/hooks/useAuth";
 import { Mail, Lock, AlertCircle, ArrowLeft } from "lucide-react";
-import logoImg from "@/assets/logo.png";
+import logoImg from "@/assets/logo-transparent.png";
 
 export const Route = createFileRoute("/login")({
   validateSearch: (search: Record<string, unknown>) => ({
@@ -104,7 +104,7 @@ function LoginPage() {
             <img
               src={logoImg}
               alt="Evolve"
-              className="mx-auto h-12 w-12 rounded-xl object-cover shadow-sm"
+              className="mx-auto h-12"
             />
             <h1 className="mt-5 text-xl font-bold tracking-tight text-foreground">
               Welcome back

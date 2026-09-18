@@ -156,7 +156,8 @@ export const faqs = [
 ];
 
 export const contact = {
-  phone: "+91 98765 43210",
-  email: "sales@evolvelifesciences.in",
-  address: "Evolve Life Sciences, 4th Floor, Bioscience Park, Andheri East, Mumbai 400093, Maharashtra, India",
+  phone: "+91 7303442030",
+  email: "hello@evolvelifesciences.in",
+  address: "Faridabad, Haryana 121003, India",
+  gstin: "06AAPPW0546E1ZJ",
 };
