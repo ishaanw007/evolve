@@ -1,0 +1,28 @@
+# Root monorepo
+node_modules/
+
+# Local data / runtime
+typesense-data/
+migration-data/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Misc
+*.local
+.cache/
+tmp/
+temp/
